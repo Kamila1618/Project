@@ -1,0 +1,89 @@
+body {
+    user-select: none;
+    margin: 0;
+    background-image: url(./../img/samolot-papierowy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto Slab", serif;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 3vw 3vw 2vw;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 2.5vw;
+}
+
+header {
+    height: 3vw;
+    padding: 0 0 50px 0;
+    font-size: 3vw;
+    text-align: center;
+}
+
+input {
+    width: 18vw;
+    height: 2vw;
+    margin-top: 3vw;
+    padding: 0.6vw 1vw 0.4vw;
+    border: 0;
+    border-bottom: 0.25vw solid orange;
+    outline: none;
+    background-color: white;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+}
+
+div {
+    display: flex;
+}
+
+#password {
+    width: 15vw;
+}
+
+span {
+    display: block;
+    width: 3vw;
+    height: 2vw;
+    margin-top: 2vw;
+    padding-top: 0.75vw;
+    background-color: white;
+    text-align: center;
+    font-size: 2vw;
+    color: grey;
+}
+
+#crossedEye {
+    display: none;
+}
+
+button {
+    justify-content: center;
+    height: 50px;
+    width: 80%;
+    margin-bottom: 1vw;
+    margin-left: 20px;
+    padding: 1vw;
+    border: 0;
+    border-radius: 2.5vw;
+    background-color: orange;
+    font-size: 1.5vw;
+    color: white;
+    letter-spacing: 0.2vw;
+    cursor: pointer;
+}
+
+iframe {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    width: 18%;
+    height: 40px;
+    border-radius: 5px;
+    color: grey;
+    font-size: 25px;
+}

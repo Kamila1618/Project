@@ -1,0 +1,25 @@
+{
+  "name": "node_05022022",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamila1618/node0205022.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kamila1618/node0205022/issues"
+  },
+  "homepage": "https://github.com/Kamila1618/node0205022#readme",
+  "description": ""
+}

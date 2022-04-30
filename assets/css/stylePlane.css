@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    background-image: url(./../img/samolot-papierowy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto Slab", serif;
+}
+
+main {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    padding: 25px;
+    background-color: white;
+    transform: translate(-25%, -25%);
+    border-radius: 2.5vw;
+    border: 0.25vw solid orange;
+}
+
+path {
+    fill: rgb(175, 167, 167);
+}
+
+#seat_7,
+#seat_8,
+#seat_9,
+#seat_11,
+#seat_21,
+#seat_22,
+#seat_23,
+#seat_24,
+#seat_25,
+#seat_37,
+#seat_38,
+#seat_49,
+#seat_50,
+#seat_54,
+#seat_55,
+#seat_76,
+#seat_77,
+#seat_78,
+#seat_88,
+#seat_89,
+#seat_90,
+#seat_91,
+#seat_92,
+#seat_93,
+#seat_96,
+#seat_99,
+#seat_100,
+#seat_102,
+#seat_105,
+#seat_107,
+#seat_110,
+#seat_122,
+#seat_125,
+#seat_133,
+#seat_134,
+#seat_138,
+#seat_140,
+#seat_144,
+#seat_145,
+#seat_146,
+#seat_151,
+#seat_153,
+#seat_154,
+#seat_155,
+#seat_156,
+#seat_157,
+#seat_158,
+#seat_159,
+#seat_160,
+#seat_161,
+#seat_162,
+#seat_163,
+#seat_164,
+#seat_165,
+#seat_166,
+#seat_167,
+#seat_168,
+#seat_169,
+#seat_170,
+#seat_171,
+#seat_172,
+#seat_173,
+#seat_174,
+#seat_175,
+#seat_177,
+#seat_178,
+#seat_179,
+#seat_180 {
+    fill: red;
+}
+
+.draw {
+    float: right;
+    background-color: transparent;
+    margin-right: 200px;
+}
+
+.select {
+    width: 175px;
+    height: 70px;
+}
+
+.button {
+    width: 175px;
+    height: 50px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 1.5vw;
+    background-color: orange;
+    font-size: 1.5vw;
+    color: white;
+    letter-spacing: 0.5vw;
+    cursor: pointer;
+}
+
+.selectMainButton {
+    width: 150px;
+}
+
+.miniatures {
+    width: 50px;
+    height: 50px;
+}
+
+#passengersOption,
+#menuDestination,
+#menuOrigin {
+    border: none;
+    font-size: 20px;
+}
